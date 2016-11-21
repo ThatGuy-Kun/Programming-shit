@@ -1,0 +1,82 @@
+.head{
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    margin:5px;
+    margin-left: 0;
+} 
+
+body{
+    padding-left:151px;
+    background-color: black;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    display: block;
+    
+}
+.kek{
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+}
+.kek1{
+    text-decoration: none;
+    font-size: 40px;
+    text-align: center;
+    list-style-type: none;
+     
+}
+.kek1{ 
+    float: right;
+    right:10px;
+    bottom:0;
+    top:0;
+}
+.sidMen{
+    margin: 0;
+    position: absolute;
+    border-right: 1px solid white; 
+    float: left;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    height: 210px;
+    overflow-y:auto;
+ 	background: white;
+    color: black;
+}
+ 
+.SidMenu{
+    float: left; 
+    position: absolute;
+    left: 0;
+    bottom:0;
+    top:210px;
+    color: black;
+    background: black;
+    width: 150px;
+    list-style-type: none;
+    border-right: 1px solid white;
+}
+.Keks{
+    position: absolute;
+    float: right;
+    right: 10px;
+    top: 170;
+    bottom: 450px;
+    height: 416px;
+    width: 600px;
+}
+
+.img{
+    width:auto;
+    height:500;
+}
+.SidMenu:hover{
+background-color:#fff;
+}
+.sidMen:hover{
+background: black;
+color: white;
+}
